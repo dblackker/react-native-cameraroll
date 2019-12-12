@@ -6,6 +6,9 @@
   "description": "React Native Camera Roll for iOS & Android",
   "main": "./js/CameraRoll.js",
   "types": "./typings/CameraRoll.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "react-native start",
     "test": "yarn validate:eslint && yarn validate:flow && yarn validate:typescript && yarn test:jest",
